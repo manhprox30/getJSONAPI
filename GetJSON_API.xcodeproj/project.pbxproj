@@ -14,6 +14,8 @@
 		CF20289B24FCFC7700002870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF20289A24FCFC7700002870 /* Assets.xcassets */; };
 		CF20289E24FCFC7700002870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF20289C24FCFC7700002870 /* LaunchScreen.storyboard */; };
 		CF2028A924FCFC7700002870 /* GetJSON_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2028A824FCFC7700002870 /* GetJSON_APITests.swift */; };
+		CF2028B924FD006800002870 /* InformationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2028B724FD006800002870 /* InformationViewCell.swift */; };
+		CF2028BA24FD006800002870 /* InformationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2028B824FD006800002870 /* InformationViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CF2028A424FCFC7700002870 /* GetJSON_APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetJSON_APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2028A824FCFC7700002870 /* GetJSON_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJSON_APITests.swift; sourceTree = "<group>"; };
 		CF2028AA24FCFC7700002870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2028B724FD006800002870 /* InformationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewCell.swift; sourceTree = "<group>"; };
+		CF2028B824FD006800002870 /* InformationViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				CF20289A24FCFC7700002870 /* Assets.xcassets */,
 				CF20289C24FCFC7700002870 /* LaunchScreen.storyboard */,
 				CF20289F24FCFC7700002870 /* Info.plist */,
+				CF2028B724FD006800002870 /* InformationViewCell.swift */,
+				CF2028B824FD006800002870 /* InformationViewCell.xib */,
 			);
 			path = GetJSON_API;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF20289E24FCFC7700002870 /* LaunchScreen.storyboard in Resources */,
+				CF2028BA24FD006800002870 /* InformationViewCell.xib in Resources */,
 				CF20289B24FCFC7700002870 /* Assets.xcassets in Resources */,
 				CF20289924FCFC7500002870 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF20289624FCFC7500002870 /* ViewController.swift in Sources */,
+				CF2028B924FD006800002870 /* InformationViewCell.swift in Sources */,
 				CF20289224FCFC7500002870 /* AppDelegate.swift in Sources */,
 				CF20289424FCFC7500002870 /* SceneDelegate.swift in Sources */,
 			);
